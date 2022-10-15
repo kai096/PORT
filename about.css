@@ -1,0 +1,167 @@
+
+body{
+    margin-right: 0px;
+    padding: 0;
+}
+.home{
+    background-image: url(./img/timon-klauser-3MAmj1ZKSZA-unspla.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0rem;
+    background-color: rgb(160, 118, 95);
+    
+}
+.btn {
+    text-decoration: none;
+}
+.btn i{
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin: 0 50px;
+}
+.btn p{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.intro{
+    background-color: rgba(119, 113, 117, 0.8);
+    color: aliceblue;
+    position: absolute;
+    left: 8rem;
+    padding: 1rem;
+}
+.intro h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.intro p{
+    font-size: 15px;
+}
+.section{
+    background-color: rgba(223, 190, 197, 0.5);
+    padding: 10px;
+    width: 100%;
+}
+.section .container{
+    padding: 10rem 0;
+    border-bottom:  solid;
+}
+.section .container:nth-of-type(1) .row{
+    text-align: center;
+}
+.head{
+    margin-bottom: 5rem;
+}
+.section h1, h2, h3, h4{
+    text-transform: uppercase;
+}
+.header h1{
+    text-transform: uppercase;
+}
+.page-num{
+    color: darkviolet;
+}
+
+
+
+
+
+.section:nth-child(2) .row{
+    text-align: center;
+}
+
+.section:nth-child(2) img{
+    width: 50%;
+}
+
+
+.section .container:nth-of-type(3) .row{
+    display: flex;
+    justify-content: center;
+}
+.skill-item{
+    /* border: solid rgb(212, 149, 149); */
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+}
+.skill-item img{
+
+}
+.skill-bar{
+    width: 20rem;
+    height: 1.5rem;
+    border: solid rgb(212, 149, 149) ;
+}
+.skill-bar-full{
+    background-color: rgb(212, 149, 149);
+    height: 100%;
+    width: 90%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.contact h1{
+    font-size: 2rem;
+}
+@media (max-width: 770px) {
+    .intro{
+        left: 2rem;
+    }
+    .btn i{
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+    .btn p{
+        font-size: 0.8rem;
+    }
+    .contact h3{
+        font-size: 1.2rem;
+    }
+    .contact h1{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 1024px) {
+    .section:nth-child(2) img{
+        width: 100px;
+    }
+    .skill-item .icon img{
+        width: 50px;
+    }
+    .skill-bar{
+        width: 15rem;
+        height: 1rem;
+    }
+@media (max-width: 425px) {
+    .btn p{
+        font-size: 10px;
+    }
+    .skill-bar{
+        width: 10rem;
+    }
+}
