@@ -1,5 +1,46 @@
-*{
+:root{
+    font-size: 62.12%;
+}
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.home{
+    background-image: url(./img/monica-garniga-XClNDg9Z9Ag-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0rem;
+    background-color: rgba(160, 118, 95, 0.5);
+    padding: 0 1rem;
+}
+.btn {
+    font-size: 2rem;
+    margin: 0 1.5rem;
+}
+.btn i{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.btn p{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.intro{
+    color: black;
+    position: absolute;
+    left: 10rem;
+    background-color: rgba(240, 248, 255blue, 0.5);
+}
+
